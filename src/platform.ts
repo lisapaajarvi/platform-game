@@ -5,4 +5,15 @@ class Platform extends Entity {
         this.speed = createVector(1,0);
       }
       
+    public draw() {
+      fill(this.color)
+      rect(this.position.x, this.position.y, this.width, this.height)
+    }
+
+    public update() {
+      this.position.y += this.speed.y;
+      this.position.x -= this.speed.x;
+    }
+
+
 }

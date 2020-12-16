@@ -10,7 +10,7 @@ class Game {
         fill(this.platform.color)
         rect(this.platform.position.x, this.platform.position.y, this.platform.width, this.platform.height)
     }    
-    update() {
+    /*update() {
         keyPressed
-    }
+    }*/
 }
